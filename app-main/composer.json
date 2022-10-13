@@ -1,0 +1,24 @@
+{
+    "name": "workable/app-statistc",
+    "description": "keyword data",
+    "authors": [
+        {
+            "name": "Carousell",
+            "email": "carousell@gmail.com"
+        }
+    ],
+    "require": {
+
+    },
+    "autoload": {
+        "classmap": [
+
+        ],
+        "psr-4": {
+            "AppMain\\Statistic\\": "/"
+        }
+    },
+    "autoload-dev": {
+    },
+    "minimum-stability": "dev"
+}

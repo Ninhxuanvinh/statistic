@@ -1,0 +1,9 @@
+apps:
+  - script: artisan
+    name: 'laravel-queue-worker'
+    interpreter: /usr/bin/php
+    cwd: /var/www/example-app
+    exec_mode: fork
+    args: queue:work --queue=changeDataSite
+    autorestart: true
+    restart_delay: 3000
